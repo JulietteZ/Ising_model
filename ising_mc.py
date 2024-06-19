@@ -35,7 +35,7 @@ def afm(lattice, coordinate_n=4):
     m = 0.
     for j in range(0,ns):
         for k in range(0,ns):
-            m += energy(lattice, j, k)/coordinate_n.
+            m += energy(lattice, j, k)/coordinate_n
     return m/(ns*ns)   
 
 # Calculate internal energy
